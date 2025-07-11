@@ -4,4 +4,11 @@
 
 const prompt = require("prompt-sync")();
 
-let num = Number(prompt('Ingresa un número'));
+let num = Number(prompt('Ingresa un número: '));
+
+let contador = 0;
+
+while(contador < num){
+    console.log('Los números de 1 hasta el número digitado es: ', contador+1);
+    contador = contador+1
+}
